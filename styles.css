@@ -1,2 +1,25 @@
-
+.box{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	
+}
+.red{
+	width:100px;
+	background-color:red;
+	height:100px;
+	order:1;
+}
+.green{
+	width:100px;
+	background-color:green;
+	height:100px;
+	order:0;
+}
+.blue{
+	order:1;
+	width:100px;
+	background-color:blue;
+	height:100px;
+}
 /* Your CSS Code here. */
